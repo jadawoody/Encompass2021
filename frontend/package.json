@@ -1,0 +1,52 @@
+{
+  "name": "frontend",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.19.2",
+    "blog-template": "^1.0.1",
+    "google-map-react": "^2.1.8",
+    "hamburger-menu": "^0.3.4",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-google-login": "^5.1.21",
+    "react-hamburger-menu": "^1.2.1",
+    "react-notifications": "^1.6.0",
+    "react-player": "^2.7.2",
+    "react-responsive-carousel": "^3.2.10",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^3.4.4",
+    "react-simple-image-slider": "^1.0.4",
+    "redux": "^4.0.5",
+    "social-media-icons-react": "^1.1.2",
+    "sweetalert": "^2.1.2",
+    "vanilla-hamburger": "^0.2.3",
+    "video-react": "^0.14.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {},
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

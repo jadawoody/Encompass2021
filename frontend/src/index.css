@@ -1,0 +1,1054 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* NAVBAR STYLES */
+/* NEED TO SET UP MEDIA QUERY FOR MENU: MENU SHOULD REDUCE INTO TRIPPLE LINE IMG AFTER MAX-WIDTH=~500 */
+.react-player{
+  width: 100px;
+  height: 100px;
+}
+
+
+
+#navLogo{
+  height: 20vh;
+  width: auto;
+}
+.logoDiv{
+  display: flex;
+  justify-content: center;
+  margin-top: 6vh;
+}
+nav{
+  margin-top: 5vh;
+  margin-right: 6vw;
+}
+.navbar-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;  
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.navbar-list a{
+  color: black;
+  text-decoration: none;
+  font-size: 2vh;
+  font-weight: 300;
+  text-align: center;
+}
+.navbar-list a:hover{
+  color: cornflowerblue;
+}
+/* @media (max-width: 600px){
+  .navbar-list a {
+      text-align: center;
+      font-size: 10px;
+  }
+  .navbar-list{
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 4vw;
+}
+} */
+
+.carouselArt{
+  margin-top: 40px;
+}
+/* .bannerPic{
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  margin-top: 4vh;
+} */
+
+
+/* HOME PAGE BODY STYLES */
+.homeHeader2{
+  text-align: center;
+  margin-top: -4px;
+  z-index: 10;
+  padding: 1px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#opener{
+  font-weight: 300;
+  font-size: 4vh;
+}
+#opener2{
+  font-weight: 250;
+  font-size: 3vh;
+  margin-top: -20px;
+  margin-bottom: 25px;
+  animation-name: bounce;
+    animation-duration: 1s;
+    animation-iteration-count: 3;
+}
+.homeSection1{
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+  Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.homeSection1 p{
+  text-align: center;
+  font-weight: 200;
+  width: 50%;
+  font-size: 3.5vh;
+  font-style: italic;
+  padding: 15px;
+}
+
+.homeSection1Pic{
+  height: auto;
+  width: 50vw;
+}
+.homeSection2{
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, 
+  Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color:  rgba(211, 211, 211, 0.397);
+  /* background: linear-gradient(to right, #dedede 0%, #bddaf9 100%); */
+  /* background: linear-gradient(to top left, #99aecc 0%, #f2f2f2 100%); */
+  padding: 1px;
+}
+.homeSection2 h2{
+  font-size: 5vh;
+  font-weight: 300;
+}
+.homeSection2 p{
+  font-size: 3vh;
+  font-weight: 200;
+  width: 60%;
+  padding-left: 20%;
+  /* padding-right: 10vw; */
+  padding-bottom: 0.1px;
+}
+.homeSection3{
+  display: flex;
+  align-items: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+  Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.homeSection3 p{
+  text-align: center;
+  font-weight: 200;
+  width: 70%;
+  font-size: 3.5vh;
+  font-style: italic;
+  padding: 15px;
+}
+.homeSection4{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+  Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.homeSection4 h5{
+  font-size: 3vh;
+}
+@media (max-width: 600px){
+  .homeSection4 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  .homeSection4 h5{
+    font-size: 15px;
+  }
+  .eleGroup{
+    text-align: center;
+    padding-bottom: 8vh;
+    font-size: 13px;
+  }
+}
+
+.element1{
+  height: 100px;
+  width: auto;
+}
+.eleGroup p{
+  font-size: 2.8vh;
+  font-weight: 300;
+  width: 25vw;
+}
+@media (max-width:600px){
+  .eleGroup p{
+    width: 70vw;
+  }
+  .homeSection1{
+    flex-direction: column;
+  }
+  .homeSection1 p{
+    font-size: 18px;
+    width: 70vw;
+  }
+  .homeSection1Pic{
+    width: 80vw;
+    height: auto;
+  }
+  .homeSection3{
+    flex-direction: column-reverse;
+    margin-top: 4vh;
+  }
+  .homeSection3 p{
+    font-size: 18px;
+    width: 70vw;
+  }
+  #sec5p{
+    width: 85vw;
+  }
+  .homeSection2 p{
+    width: 80vw;
+    margin-left: -11vw;
+  }
+  #opener{
+    font-size: 3vh;
+    margin-bottom: 24px;
+  }
+  #opener2{
+    font-size: 2vh;
+    margin-top: none;
+  }
+}
+.eleGroup a{
+  text-decoration: none;
+  color: black;
+}
+.eleGroup a:hover{
+  color: cornflowerblue;
+}
+/* .eleTitle{
+  font-size: 20px;
+} */
+/* #elep{
+  padding-top: 15px;
+} */
+.homeSection5{
+  text-align: center;
+  padding: 5px;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  background-color: rgba(211, 211, 211, 0.397);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+  Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#sec5p{
+  width: 85vw;
+}
+.homeSection5 h3{
+  font-size: 4vh;
+  font-weight: 300;
+}
+.homeSection5 p{
+  font-size: 3vh;
+  font-weight: 200;
+  width: 85vw;
+  margin-top: -8px;
+}
+.homeSwal{
+  font-size: 10px;
+}
+swal-title{
+  font-size: 5px;
+}
+
+
+/* SERVICES PAGE STYLES */
+.serviceTotal{
+  /* margin-top: 40px; */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+  Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.servHeader{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.servHeader h3{
+  /* font-size: 35px; */
+  font-size: 6vh;
+  font-weight: 200;
+  text-align: center;
+  margin-top: -40px;
+  /* width: 650px; */
+}
+.servHeader p{
+  font-size: 3vh;
+  font-weight: 200;
+  text-align: center;
+  margin-top: -20px;
+  width: 80vw;
+}
+.servIntroLine{
+  font-size: 7vh;
+  font-weight: 200;
+  margin-bottom: -10px;
+  text-align: center;
+}
+.servArt p a{
+  color: black;
+  text-decoration: none;
+}
+.servArt p a:hover{
+  color: cornflowerblue;
+}
+.divOfSec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.divOfSec p{
+  width: 300px;
+  margin-top: -20px;
+}
+.servSec1{
+  display: flex;
+}
+.servSec2{
+  display: flex;
+}
+.servSec3{
+  display: flex;
+}
+@media (max-width: 600px){
+  .servSec1{
+    display: flex;
+    flex-direction: column;
+  }
+  .servSec2{
+    display: flex;
+    flex-direction: column;
+  }
+  .servSec3{
+    display: flex;
+    flex-direction: column;
+  }
+  
+}
+@media (min-width: 600px){
+  .servArt p{
+    width: 40vw;
+  }
+}
+.hbotServ{
+  margin-top: -8vh;
+}
+.servArt h5{
+  font-size: 5vh;
+  font-weight: 200;
+}
+.servArt p{
+  font-size: 4vh;
+}
+.servArt{
+  margin-left: 20px;
+  margin-right: 20px;
+  border-bottom: 1px solid gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.servSec4{
+  margin-left: 12vw;
+}
+.servSec4 h5{
+  font-size: 5vh;
+  font-weight: 200;
+  margin-left: -40px;
+}
+.servList{
+  margin-top: -20px;
+  margin-left: -60px;
+  list-style: circle;
+}
+.servSec4 li{
+  font-size: 4vh;
+}
+#flatBannerB{
+  width: 100%;
+  height: auto;
+}
+
+
+
+/* MEET OUR TEAM PAGE STYLES */
+.teamPage{
+  /* margin-top: 40px; */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+  Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.teamIntro{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -3vh;
+}
+.teamIntro h2{
+  text-align: center;
+  font-size: 6vh;
+  font-weight: 200;
+}
+.teamIntro p{
+  text-align: center;
+  width: 80vw;
+  margin-top: -18px;
+  font-weight: 200;
+  font-size: 3vh;
+}
+.Tsec1{
+  display: flex;
+  align-items: center;
+}
+.Tsec1 h4{
+  font-weight: 300;
+  font-size: 5vh;
+}
+.Tsec1 p{
+  font-weight: 200;
+  font-size: 3.5vh;
+  margin-top: -15px;
+}
+.Tsec1Pic{
+  height: auto;
+  width: 30vw;
+  /* margin-left: 20px; */
+}
+.textBox1{
+  padding-left: 10px;
+  padding-right: 20px;
+}
+.textBox2{
+  padding-right: 10px;
+  padding-left: 20px;
+}
+.Tsec2{
+  display: flex;
+  align-items: center;
+  text-align: right;
+}
+.Tsec2 h4{
+  font-weight: 300;
+  font-size: 5vh;
+}
+.Tsec2 p{
+  font-weight: 200;
+  font-size: 3.5vh;
+  margin-top: -15px;
+}
+.Tsec2Pic{
+  height: auto;
+  width: 30vw;
+}
+@media (max-width: 700px){
+  .Tsec1{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .Tsec2{
+    display: flex;
+    flex-direction: column;
+  }
+  .Tsec1Pic{
+    height: auto;
+    width: 60vw;
+    margin-top: 4vh;
+  }
+  .Tsec2Pic{
+    height: auto;
+    width: 60vw;
+    margin-top: 4vh;
+
+  }
+}
+
+/* CASE MANAGERS PAGE STYLES */
+@media (max-width: 700px){
+.totalCMDiv{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 0vw;
+}
+.CMsec1{
+  flex-direction: column;
+  align-items: center;
+}
+.CMsec1 article{
+  margin-left: none;
+  padding-left: none;
+}
+#additionalDivCM{
+  margin-left: .5vw;
+}
+}
+
+.CMIntroSection{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -15px;
+  text-align: center;
+}
+.CMIntroSection p{
+  font-size: 3vh;
+  font-weight: 100;
+  text-align: center;
+  margin-top: -15px;
+  width: 80vw;
+}
+.CMHeads{
+  font-weight: 300;
+  font-size: 4vh;
+}
+.CMpara{
+  font-weight: 200;
+  font-size: 3vh;
+}
+#CMimage{
+  height: 200px;
+  width: auto;
+  padding-top: 3vh;
+}
+.CMsec1{
+  display: flex;
+}
+.CMsec1 article{
+  margin-left: 3vw;
+}
+
+/* REFERRING PHYSICIANS PAGE STYLES */
+#physIntro{
+  font-size: 6vh;
+  font-weight: 200;
+  text-align: center;
+}
+.physIntroSection{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -15px;
+
+}
+.physIntroSection p{
+  /* font-size: 3vh; */
+  font-weight: 100;
+  text-align: center;
+  margin-top: -15px;
+  width: 75vw;
+}
+@media (max-width: 700px){
+  .physIntroSection p{
+    font-size: 15px;
+    font-weight: 100;
+    text-align: center;
+    margin-top: -15px;
+    width: 70vw;
+  }
+}
+.physTotal p{
+  font-weight: 200;
+  font-size: 3.5vh;
+}
+.physTotal ol{
+  font-weight: 200;
+  font-size: 4vh;
+}
+.physHeads{
+  font-weight: 300;
+  font-size: 4vh;
+}
+.bruceTeachPic{
+  height: 350px;
+  width: auto;
+  align-self: center;
+}
+@media (max-width: 600px){
+  .bruceTeachPic{
+  height: auto;
+  width: 70vw;
+  align-self: center;
+  margin-top: 0px;
+  }
+  /* .physSec3Pic{
+    width: 50vw;
+    height: auto;
+  } */
+}
+.physIntroSection p{
+  width: 90vw;
+  font-size: 26px;
+}
+.physSec1{
+  display: flex;
+  margin: 0 10px 0 10px;
+}
+@media (max-width: 600px){
+  .physSec1 p{
+    width: 80vw;
+    font-size: 24px;
+    margin-left: -10vw;
+    text-align: left;
+  }
+  .physSec2 p {
+    width: 80vw;
+    font-size: 24px;
+    text-align: left;
+  }
+  .physSecArt{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    margin-right: 10vw;
+  }
+  .physSec3Art{
+    flex-direction: column;
+    margin-left: 10px;
+  }
+  #brick1{
+    margin-left: 0px;
+  }
+  .physBrick{
+    margin-left: 0px;
+  }
+  .physBrick li{
+    width: 95vw;
+    font-size: 24px;
+  }
+  .apptDiv li{
+    width: 95vw;
+    font-size: 24px;
+  }
+  .physSec3brick li {
+    width: 95vw;
+    font-size: 24px;
+  }
+  #aptHead{
+    margin-left: 3vw;
+  }
+}
+.physSecArt p{
+  text-align: centlefter;
+}
+.physSecArt{
+  margin-left: 30px;
+  width: 60vw;
+  align-self: center;
+}
+.physSec2{
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.physSec3Art{
+  display: flex;
+  justify-content: space-around;
+}
+.physSec3Pic{
+  height: 350px;
+  width: auto;
+  align-self: center;
+}
+.physBrick{
+  width: 40vw;
+}
+.apptDiv li{
+  width: 75vw;
+  /* margin-left: 10px; */
+}
+.apptDiv{
+  margin-left: 5vw;
+}
+/* #aptHead{
+  margin-left: 5vw;
+} */
+@media (max-width: 1150px){
+  .physSec1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 10px;
+    align-items: center;
+  }
+  .physSec1 p{
+    width: 80vw;
+    margin-left: -10vw;
+    text-align: left;
+  }
+}
+
+
+/* BLOG PAGE STYLES */
+.blogSect2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2vh;
+}
+.blogIntro{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -3vh;
+}
+.blogIntro h2{
+  text-align: center;
+  font-size: 6vh;
+  font-weight: 200;
+}
+.blogIntro p{
+  text-align: center;
+  width: 80vw;
+  margin-top: -18px;
+  font-weight: 200;
+  font-size: 3.5vh;
+}
+.blogSect2 h2 {
+  font-weight: 400;
+}
+.eachBlogDiv{
+  margin-left: 20px;
+}
+.eachBlogBigDiv{
+  display: flex;
+  align-items: center;
+  margin-bottom: 2vh;
+}
+@media (max-width: 800px){
+  .eachBlogBigDiv{
+    flex-direction: column;
+    margin-top: 5vh;
+  }
+  #blogimg1{
+    height: auto;
+    width: 60vw;
+    margin-bottom: -3vh;
+  }
+  #blogDeetPic{
+    visibility: hidden;
+  }
+  #blogDeetPic2{
+    visibility: visible;
+  }
+}
+.eachBlogBigDiv img{
+  height: auto;
+  width: 300px;
+  margin-top: 5vh;
+}
+.eachBlogDiv h3{
+  font-size: 4vh;
+  font-weight: 300;
+  margin-bottom: -30px;
+}
+.eachBlogDiv h4{
+  font-size: 2.8vh;
+  font-weight: 150;
+  margin-bottom: -30px;
+}
+.eachBlogDiv h5{
+  font-size: 3.2vh;
+  font-weight: 300;
+  margin-bottom: 8px;
+}
+.eachBlogDiv p{
+  font-size: 12px;
+  font-weight: 200;
+}
+.readMoreLink{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+.readMoreLink:hover{
+  color: cornflowerblue;
+}
+#blogDeetPic{
+  height: auto;
+  width: 60vw;
+  /* margin-left: 25vw; */
+}
+#blogDeetPic2{
+  /* visibility: hidden; */
+  height: auto;
+  width: 40vw;
+}
+#blogDeetPicDiv2{
+  display: flex;
+  justify-content: center;
+}
+#blogDeetPicDiv{
+  display: flex;
+  justify-content: center;
+}
+
+#blogDeetPic2{
+  /* visibility: hidden; */
+  height: auto;
+  width: 40vw;
+}
+#blogDeetPicDiv2{
+  display: flex;
+  justify-content: center;
+}
+
+#blogDeetTitle{
+  font-size: 4.5vh;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: -10px;
+}
+#blogDeetMore{
+  font-size: 2vh;
+  font-weight: 300;
+  text-align: center;
+}
+#blogDeetBody{
+  font-size: 3vh;
+  font-weight: 300;
+  text-align: left;
+  text-indent: 5vw;
+  
+}
+#blogDeetAllBody{
+  margin: 0 5vw 0 5vw;
+  padding: 2vw 2vw 2vw 2vw;
+  /* border-left: 6px solid cornflowerblue;
+  border-right: 6px solid cornflowerblue;
+  border-top: 6px solid cornflowerblue;
+  border-bottom: 6px solid cornflowerblue; */
+}
+
+
+/* BLOG DETAILS LOADING STYLES */
+/* #loading {
+  width: 20vw;
+  height: auto;
+  top: 60vh;
+  left: 40%;
+  position: fixed;
+  display: block;
+  opacity: 0.7;
+  background-color: #fff;
+  z-index: 99;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+} */
+
+/* MEDIA ROOM STYLES */
+.blogSect3{
+  text-align: center;
+}
+.blogSect3 h2 {
+  font-size: 6vh;
+  font-weight: 500;
+}
+.blogSect3 p {
+  font-size: 4vh;
+  font-weight: 300;
+}
+.blogSect3Link{
+  color: black;
+  text-decoration: underline;
+}
+.blogSect3Link:hover{
+  color: cornflowerblue;
+}
+
+
+
+/* CONTACT US PAGE STYLES */
+@media (max-width: 600px){
+  .bruceContactPic{
+    height: auto;
+    width: 40vw;
+  }
+}
+
+.bruceContactPic{
+  height: auto;
+  width: 80vw;
+  margin-left: 9vw;
+}
+.contactHeader{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -3vh;
+}
+.contactHeader h2{
+  font-size: 6vh;
+  font-weight: 200;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+  Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+  
+}
+.contactHeader p{
+  text-align: center;
+  width: 80vw;
+  margin-top: -18px;
+  font-weight: 200;
+  font-size: 3.5vh;
+}
+.contactDiv1{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+  Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.contactDiv1 h5{
+  margin-bottom: 10px;
+  font-size: 4vh;
+}
+.contactDiv1 p{
+  margin-top: -10px;
+  font-size: 3vh;
+  font-weight: 250;
+}
+#EHonMap{
+  height: 70vh;
+  width: auto;
+  margin: 8vh 0 0 0;
+  border: darkgrey solid 5px;
+}
+#contactSect1{
+  display: flex;
+  justify-content: space-around;
+}
+#phoneCall{
+  color: black;
+  text-decoration: none;
+}
+#phoneCall:hover{
+  color: cornflowerblue;
+}
+
+@media (max-width: 600px){
+  #contactSect1{
+    display: flex;
+    flex-direction: column;
+  }
+  #EHonMap{
+    height: auto;
+    width: 70vw;
+    align-self: left;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+}
+
+/* FOOTER STYLES */
+footer{
+  margin-top: 40px;
+  font-size: 2vh;
+  font-weight: 300;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#footerImg{
+  height: auto;
+  width: 45px;
+  padding: 0 10px 0 10px;
+}
+#googleBizProf{
+  text-decoration: none;
+  color: black;
+}
+#googleBizProf:hover{
+  
+  color: cornflowerblue;
+}
+
+
+
+
+/* PRACTICING HAMBURGER MENU STYLES... */
+#burgerBars{
+  font-size: 26px;
+  line-height: 20px;
+  display: none;
+  width: 26px;
+  float: left;
+  margin-top: -25px;
+  margin-bottom: 0px;
+  /* margin: 0 10px 0 0; */
+  /* position: fixed; */
+  z-index: 100;
+}
+#toggle{
+  display: none;
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+  40% {transform: translateY(-8px);}
+  60% {transform: translateY(-3px);}
+}
+@media (max-width: 600px){
+  #burgerBars{
+    display: block;
+    cursor: pointer;
+    animation-name: bounce;
+    animation-duration: 1s;
+    animation-iteration-count: 2;
+  }
+  #burgerBars:hover{
+    animation-name: bounce;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+  }
+  .menu{
+    text-align: center;
+    width: 100%;
+    display: none;
+  }
+  .menu a{
+    display: block;
+  }
+  #toggle:checked + .menu {
+    display: block;
+  }
+  #menu{
+    display: flex;
+    flex-direction: column;
+    margin-right: 8vw;
+  }
+}
+
+
+/* CAROPRACTICE PAGE STYLES */
+
+/* SWAL/SWEETALERT STYLES */
+.swal-overlay {
+  background-color: rgba(56, 75, 111, 0.577);
+}
+.swal-text {
+  text-align: center;
+  margin-top: 5px;
+  font-size: 20px;
+}
+.swal-title {
+  font-size: 28px;
+}
+.swal-button {
+  padding: 7px 19px;
+  border-radius: 2px;
+  background-color: #4962B3;
+  font-size: 18px;
+  border: 1px solid #3e549a;
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.3);
+  /* margin-right: 13vw; */
+}
+.swal-modal {
+  border-radius: 10%;
+  padding: 15px 0 15px 0;
+}
+.swal-footer{
+  text-align: center;
+}
